@@ -104,10 +104,19 @@ ti = TaskInstance(task=task, execution_date=datetime.now())
 task.execute(context=ti.get_template_context())
 ```
 
+## Managed Apache Airflow
+- [Google Cloud Composer](https://cloud.google.com/composer/) is a fully managed workflow orchestration service that empowers you to author, schedule, and monitor pipelines that span across clouds and on-premises data centers. Built on the popular Apache Airflow open source project and operated using the Python programming language, Cloud Composer is free from lock-in and easy to use.
+- [astronomer.io](https://www.astronomer.io/pricing/): Astronomer makes it easy to deploy and manage your own Apache Airflow cluster, so you can get straight to writing workflows.
+- [Qubole](https://www.qubole.com/blog/airflow-as-a-service-on-qds-generally-available/): We are excited to announce that Airflow as a service on Qubole Data Service (QDS) is GA and joins the family of Hadoop 1, Hadoop 2, Spark, Presto, and HBase offered as a service on QDS. 
+
 ## Sources
 - [Apache Airflow](https://airflow.apache.org/)
 - [How Quizlet uses Apache Airflow to execute complex data processing pipelines](https://medium.com/tech-quizlet/going-with-the-flow-how-quizlet-uses-apache-airflow-to-execute-complex-data-processing-pipelines-1ca546f8cc68)
+- [Using Apache Airflow to build reusable ETL on AWS Redshift](https://sonra.io/2018/01/01/using-apache-airflow-to-build-a-data-pipeline-on-aws/)
+- [Automated Model Building with EMR, Spark, and Airflow](https://www.agari.com/identity-intelligence-blog/automated-model-building-emr-spark-airflow/)
 
 ## Videos
 - [A Pratctical Introduction to Airflow - Matt Davis](https://www.youtube.com/watch?v=cHATHSB_450)
 - [Modern ETL-ing with Python and Airflow (and Spark) - Tamara Mendt](https://www.youtube.com/watch?v=tcJhSaowzUI)
+- [Developing elegant workflows in Python code with Apache Airflow - Michał Karzyński](https://www.youtube.com/watch?v=XJf-f56JbFM)
+- [Elegant data pipelining with Apache Airflow - Bolke de Bruin](https://www.youtube.com/watch?v=neuh_2_zrt8)
